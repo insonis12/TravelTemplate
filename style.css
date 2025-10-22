@@ -1,0 +1,149 @@
+.navbar{
+    float: right;
+    height: 42px;
+    margin-top: 10px;
+}
+p{
+    color: rgba(128, 128, 128, 0.92);
+}
+.text{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.text2{
+    color:white;
+    font-weight: 400;
+}
+.linkk{
+    color: white;
+}
+.nav-link{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btn-white{
+    background-color: white !important;
+    color: rgba(128, 128, 128, 0.904);
+}
+.btn-transparent{
+    background-color: rgba(128, 128, 128, 0.774) !important;
+}
+.btn-danger{
+    background-color: rgb(2, 197, 197) !important; 
+}
+.btn-secondary{
+    margin-left: 5px;
+    background-color: rgb(2, 197, 197) !important;
+    width: 115px;
+    height: max-content;
+    margin-top: 7px;
+}
+.bg{
+    background-color: rgb(244, 243, 243);
+}
+.pic{
+    width:100%;
+    height: 100%;
+}
+.display{
+    width: 100%;
+    margin-top: -52px;
+}
+.content{
+    margin-top: -40%;
+}
+.col{
+    padding: 30px;
+}
+.col-lg-4,.col-12,.col-sm-4,.col-md-4{
+    border: 1px solid rgba(0, 0, 0, 0.087);
+}
+.inputs{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.container{
+    margin-top: 60px;
+}
+.searchbar>img{
+    height: 220px;
+    margin-top: 100px;
+}
+.inside{
+    margin-top: -170px;
+}
+.about{
+    margin-bottom: 20%;
+}
+.searchbar{
+    margin-bottom: 130px;
+}
+.card{
+    box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.244);
+}
+.row{
+    box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.244);
+}
+@media (min-width:950px)
+{
+    .display{
+        height: 500px;
+    }
+    .content{
+        margin-top: -340px;
+    }
+    .searchbar>img{
+        height: 280px;
+    }
+    .inside{
+        margin-top: -200px;
+    }
+    .searchbar{
+        margin-bottom: 15%;
+    }
+}
+@media (max-width:576px)
+{
+    .display{
+        height: 300px;
+    }
+    .navbar-collapse{
+        background-color: grey;
+        margin-top: 5px;
+    }
+    .btn-secondary{
+        margin-bottom: 10px;
+    }
+    .content{
+        margin-top: -200px;
+    }
+    .container{
+        margin-top: 50px;
+    }
+    .searchbar>img{
+        height: 150px;
+    }
+    .inside{
+        margin-top: -130px;
+    }
+    .about{
+        text-align: center;
+    }
+    .card{
+        margin-top: 20px;
+    }
+}
+@media (min-width:570px)
+{
+    .about{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        text-align: center;
+    } 
+}
